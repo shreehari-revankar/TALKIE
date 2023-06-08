@@ -13,7 +13,14 @@ In this approach, we extract specific features from each character of the ASL al
 
 * Method 2: Convolutional Neural Network (CNN) classification
 
-Alternatively, we employ a CNN-based approach for classifying ASL gestures. In this method, we utilize a pre-trained CNN model, specifically designed to process and classify images. We capture images of the hand gestures using the camera feed and input them directly into the CNN. The CNN model, consisting of convolutional layers, pooling layers, and fully connected layers, learns the underlying patterns and features of the hand gestures required for accurate classification. By training the CNN on a large dataset of labeled ASL gesture images, it becomes proficient at recognizing and classifying different ASL characters.
+Alternatively, we employ a CNN-based approach for classifying ASL gestures. In this method, we utilize a trained CNN model, specifically designed to process and classify images. We capture images of the hand gestures using the camera feed and input them directly into the CNN. The CNN model, consisting of convolutional layers, pooling layers, and fully connected layers, learns the underlying patterns and features of the hand gestures required for accurate classification. By training the CNN on a large dataset of labeled ASL gesture images, it becomes proficient at recognizing and classifying different ASL characters.
 
 By implementing these two methods, we aim to compare their performance in terms of accuracy and efficiency. The feature-based approach leverages hand-crafted features to describe the ASL gestures, while the CNN-based approach utilizes the power of deep learning to automatically extract relevant features from raw image data. By evaluating and comparing the results of both methods, we can determine the most effective approach for ASL gesture classification and proceed with the chosen method in our project.
 
+## Dataset
+
+ASL datasets for hand gestures typically consist of grayscale images capturing the hand poses corresponding to each ASL alphabet letter. These images are carefully captured to emphasize the hand shape and pose, making it easier for models to learn and recognize the gestures accurately.
+
+The grayscale images are preferred in ASL datasets because they provide a simplified representation of the hand gestures, focusing solely on the intensity of each pixel rather than color information. By removing color, the models can solely focus on the shape, texture, and spatial relationships of the hand features, which are crucial for accurate gesture classification.
+
+[Dataset](https://github.com/shreehari-revankar/TALKIE/tree/main/Dataset)
