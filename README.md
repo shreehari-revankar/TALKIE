@@ -24,3 +24,9 @@ ASL datasets for hand gestures typically consist of grayscale images capturing t
 The grayscale images are preferred in ASL datasets because they provide a simplified representation of the hand gestures, focusing solely on the intensity of each pixel rather than color information. By removing color, the models can solely focus on the shape, texture, and spatial relationships of the hand features, which are crucial for accurate gesture classification.
 
 [Dataset](https://github.com/shreehari-revankar/TALKIE/tree/main/Dataset)
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[MIT License Link](https://github.com/shreehari-revankar/TALKIE/blob/main/LICENSE)
